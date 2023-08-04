@@ -15,9 +15,6 @@ public class Constellation extends BaseEntity{
     @Column(name = "description", nullable = false)
     private String description;
 
-//    @OneToMany
-//    private Set<Star> stars;
-
     public Constellation() {
     }
 
@@ -36,12 +33,4 @@ public class Constellation extends BaseEntity{
     public void setDescription(String description) {
         this.description = description;
     }
-
-//    public Set<Star> getStars() {
-//        return stars;
-//    }
-//
-//    public void setStars(Set<Star> stars) {
-//        this.stars = stars;
-//    }
 }
